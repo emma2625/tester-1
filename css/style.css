@@ -1,0 +1,80 @@
+.container {
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items:  center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    box-shadow:  0  0 5px 0 #808080;
+    width: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#main input {
+    width: 97%;
+    margin: 10px 0;
+    height: 2.5rem;
+    padding: 0 5px;
+    display: block;
+    border: 1px solid #80808056;
+}
+
+#main button {
+    background-color: #808080;
+    border: 0;
+    padding: .5rem 3rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.idCard {
+    border: 1px solid #80808056;
+    width: 100%;
+    max-width: 22rem;
+    border-radius: .8rem;
+}
+
+
+.top {
+    background-color: #808080;
+    height: 14rem;
+    border-radius: .8rem .8rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.top img {
+    border: .5rem solid #808080;
+    background-color: #ffffff;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: -2rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.bottom h1 {
+    font-size: 1.8rem;
+    font-family: cursive;
+    text-shadow: -3px 5px 5px #808080;
+}
+
+.bottom h5 {
+    font-size: 0.9rem;
+    font-family: monospace;
+    text-shadow: -2px 2px 5px #808080;
+}

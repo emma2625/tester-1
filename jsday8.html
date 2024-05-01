@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .face {
+            height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .watch {
+            border: 10px solid lime;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .watch span {
+            font-size: 3.5rem;
+            font-family: monospace;
+        }
+
+        #btn {
+            border: none;
+            background-color: red;
+            padding: .5rem 2rem;
+            border-radius: 1000vmax;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="face">
+        <div class="watch">
+            <div id="display">
+                <span>00</span>
+                <span>:</span>
+                <span>00</span>
+            </div>
+            <button id="btn" data-status="stop">Start</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/jsday8.js"></script>
+</body>
+</html>

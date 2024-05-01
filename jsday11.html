@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        .all_products {
+            padding: 1rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+        .product_item {
+            box-shadow: 0 0 5px 0 #8080805e;
+            border-radius: .5rem;
+            position: relative;
+        }
+        .product_item img {
+            width: 100%;
+            aspect-ratio: 16/11;
+            border-radius: .5rem .5rem 0 0;
+            object-fit: cover;
+        }
+        .product_item h5 {
+            font-size: 1.5rem;
+            padding: .5rem 1rem;
+            margin: 5px 0;
+        }
+        .product_item .category {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="all_products">
+            Loading...
+        </div>
+    </section>
+
+    <script src="js/jsday11.js"></script>
+</body>
+</html>

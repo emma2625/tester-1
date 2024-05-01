@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myForm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 10rem;
+        }
+
+        #myForm input {
+            border: 0;
+            outline: 0;
+            border-bottom: 1px solid #808080;
+            font-size: 1.5rem;
+            padding: .3rem 1rem;
+        }
+        #myForm button {
+            border: 0;
+            padding: 1rem 2rem;
+            border-radius: 1000vmax;
+        }
+
+        .display {
+            width: 100%;
+            max-width: 35rem;
+            padding: 1rem;
+            box-shadow: 0 0 .2rem 0 #808080;
+            margin: 0 auto;
+            margin-top: 3rem;
+            border-radius: .2rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form id="myForm">
+        <input type="text" placeholder="Type word here...">
+        <button>Search</button>
+    </form>
+
+    <div class="display"></div>
+
+    <script src="js/jsday10.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.wrap > div {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.p1 {
+    background-color: red;
+    position: static;
+    top: 100px;
+}
+
+
+.p2 {
+    background-color: purple;
+    position: relative;
+    top:  5px;
+    left: 20px;
+}
+
+.p3 {
+    background-color: hotpink;
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    right: 0;
+}
+
+.anchor {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.p4 {
+    background-color: blue;
+    position: fixed;
+    bottom: 30%;
+    left: 20px;
+}
+
+.p5 {
+    background-color: limegreen;
+    position: sticky;
+    top: 0;
+}
